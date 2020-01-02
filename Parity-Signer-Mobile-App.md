@@ -36,6 +36,7 @@ Please double check carefully the origin of the app, and make sure that the comp
 ## How to update Parity Signer securely
 Once Parity Signer is installed, your device should never go online. This would put your private keys at threat. To update, you will need to :
 1. Make sure you possess the recovery phrase for each of your accounts. You can find it on Parity Signer by :
+- v4.0 choosing an identity > click the user icon at the top right > “Show Recovery Phrase”
 - v2.2 tapping an account > 3 dots menu at the top right > “Backup Recovery Phrase”
 - v2.0 tapping an account > tap on the account address >   “Backup Recovery Phrase”
 2. Factory reset the device.
