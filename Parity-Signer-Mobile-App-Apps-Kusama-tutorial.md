@@ -50,7 +50,7 @@ You will then be asked to choose a pin code. This pin will be needed later on to
 The next screen you will allow you to select a network for generating an account.
 If you choose Ethereum networks, the related Ethereum account will be generated for the account,
 
-If you choose Substrate networks like Kusama, you will first create a root account, and then you will be able to derive more accounts with specified paths and names. The name could be changed later on, but once the path is set, it can not be changed. More information about path derivation see [here].
+If you choose Substrate networks like Kusama, you will first create a root account, and then you will be able to derive more accounts with specified paths and names. The name could be changed later on, but once the path is set, it can not be changed. More information about path derivation see [here](Parity-Signer-Hierarchical-Deterministic-Key-Derivation).
 
 For each derived account, you will be able to see the address and its related QR codes.
 
@@ -95,7 +95,7 @@ Assuming that your Parity Signer account now has funds, you will be able to send
 ![Parity Signer Polkadot send transaction](images/Parity-Signer-apps-tx-workflow.png)
 
 You will now be presented with a QR code that represents the transaction. Since this transaction is sending funds from your Parity Signer mobile app account, only this account (sitting on your phone) can sign and authorise this transaction. This is what we'll do in the next steps:
-- From the Parity Signer account overview, tap the `Scan` button and scan the QR code presented by the Polkadot-js apps website.
+- From the Parity Signer account overview, tap the scan button on the top right and scan the QR code presented by the Polkadot-js apps website.
 - Review the transaction addresses and the amount to send on your phone. The amount and addresses must match what you've entered in apps. If you got phished, this is where you can realise it and reject the transaction.
 - Once you're sure, scroll down and click `Sign Transaction` to enter your pin and get the QR code of the scanned transaction.
 
